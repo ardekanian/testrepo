@@ -1,2 +1,2 @@
 echo 'test.sh execution:'
-docker -v
+docker ps -al
