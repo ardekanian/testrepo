@@ -1,2 +1,2 @@
 echo 'test.sh execution:'
-docker ps -al
+docker --version
