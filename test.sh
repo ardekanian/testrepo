@@ -1,3 +1,2 @@
-echo 'ardekanian.com'
-ls /etc/
-ls /dev/
+echo 'test.sh execution:'
+docker --version
