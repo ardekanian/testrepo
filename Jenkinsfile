@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh "rm -rf testrepo" 
-                sh "git clone https://github.com/ardekanian/testrepo.git"
+				echo "Build"
                 sh "mvn clean -f testrepo/pom.xml"
             }
         }
